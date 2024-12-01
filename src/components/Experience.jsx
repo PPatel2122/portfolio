@@ -5,12 +5,12 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import netlify from "../assets/netlify.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
+import ver from "../assets/ver.png";
+import Git from "../assets/Git.png"
 import redux from "../assets/redux.png"
 const Experience = () => {
   const techs = [
@@ -52,9 +52,9 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: netlify,
+      title: "Netlify",
+      style: "shadow-blue-400",
     },
     {
       id: 8,
@@ -70,15 +70,15 @@ const Experience = () => {
     },
     {
       id: 10,
-      src: express,
-      title: "Express",
+      src: ver,
+      title: "Vercal",
       style: "shadow-white",
     },
     {
       id: 11,
-      src: mongodb,
-      title: "MongoDB",
-      style: "shadow-green-500",
+      src: Git,
+      title: "GIT",
+      style: "shadow-red-500",
     },
     {
       id: 12,
