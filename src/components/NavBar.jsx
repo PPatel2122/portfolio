@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import logo from "../assets/logo.png";
+
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -20,7 +22,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "skils",
     },
     {
       id: 5,
@@ -29,10 +31,18 @@ const NavBar = () => {
   ];
 
   return (
+
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
       <div>
-        <h1 className="text-5xl font-signature ml-2"><a className="link-underline link-underline-black" href="https://www.instagram.com/p__patel_27/" target="_blank" rel="noreferrer">PAWAN</a></h1>
+      <img
+              src={logo}
+              alt="profile"
+             className="w-12 link-underline link-underline-black  "
+            />
+
+        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline link-underline-black" href="https://www.instagram.com/p__patel_27/" target="_blank" rel="noreferrer">PAWAN</a></h1> */}
       </div>
+
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (

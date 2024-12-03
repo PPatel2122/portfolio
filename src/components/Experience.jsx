@@ -12,7 +12,7 @@ import node from "../assets/node.png";
 import ver from "../assets/ver.png";
 import Git from "../assets/Git.png"
 import redux from "../assets/redux.png"
-const Experience = () => {
+const skils = () => {
   const techs = [
     {
       id: 1,
@@ -90,13 +90,13 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
+      name="skils"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+          Skils
           </p>
           <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
         </div>
@@ -117,4 +117,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default skils;

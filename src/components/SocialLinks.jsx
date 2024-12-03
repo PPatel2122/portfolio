@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/my/resume.pptx";
@@ -47,7 +47,7 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Twitter <FaTwitter size={30} />
+          ---X--- <FaTimes size={30} />
         </>
       ),
       href: "https://x.com/P__Patel__27",
